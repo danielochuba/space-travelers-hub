@@ -1,0 +1,133 @@
+.headerM {
+  display: flex;
+  margin: 20px 20px 0 20px;
+}
+
+.titleM {
+  width: 15%;
+  padding: 5px;
+  border: solid 1px #000;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.descriptionM {
+  width: 55%;
+  padding: 5px;
+  border: solid 1px #000;
+  border-left: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+#statusHeader {
+  justify-content: flex-start;
+}
+
+.statusM {
+  width: 15%;
+  padding: 5px;
+  border: solid 1px #000;
+  border-left: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activeMember {
+  background-color: #18a2b8;
+  border: solid 1px #18a2b8;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 0;
+}
+
+.notActive {
+  background-color: #6d757d;
+  border: solid 1px #6d767d;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 0;
+}
+
+.joinBtn {
+  width: 15%;
+  padding: 5px;
+  border: solid 1px #000;
+  border-left: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.joinMission {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.leaveMission {
+  background-color: #fff;
+  border: 1px solid red;
+  color: red;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.missionDiv {
+  display: flex;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 720px) {
+  .headerM {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .titleM {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #000;
+    padding: 10px;
+  }
+
+  .descriptionM {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #000;
+    padding: 10px;
+  }
+
+  #statusHeader {
+    justify-content: flex-start;
+  }
+
+  .statusM {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #000;
+    padding: 10px;
+  }
+
+  .joinBtn {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #000;
+    padding: 10px;
+  }
+
+  .missionDiv {
+    flex-direction: column;
+    margin: 0;
+  }
+  
+}

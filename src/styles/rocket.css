@@ -1,0 +1,61 @@
+.cardImage {
+  width: 220px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.rocketCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 19px;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.title {
+  margin: 0 0 0;
+  padding: 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-size: 1.1rem;
+  width: 80%;
+  margin: 1rem 0 1rem;
+  padding: 0;
+}
+
+.CTABtn {
+  width: max-content;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 720px) {
+  .rocketCard {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+  }
+
+  .cardImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .details {
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
+  }
+  
+}
